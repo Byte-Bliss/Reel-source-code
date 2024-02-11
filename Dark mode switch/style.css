@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 4px rgb(180, 180, 180);
+}
+
+.light-element {
+    background-color: gray;
+}
+
+.dark-element {
+    background-color: white;
+}
+
+.light-body {
+    background-color: white;
+}
+
+.dark-body {
+    background-color: rgb(54, 54, 54);
+}
